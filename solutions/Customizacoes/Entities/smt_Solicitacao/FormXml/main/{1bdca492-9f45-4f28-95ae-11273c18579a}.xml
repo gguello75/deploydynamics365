@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{1bdca492-9f45-4f28-95ae-11273c18579a}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{2d0cc8dc-e1d0-4498-83e7-f3bbc51a7026}" IsUserDefined="1">
+          <labels>
+            <label description="Geral" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{abe76b6a-4f3d-4973-b1c2-09fe3b38849f}">
+                  <labels>
+                    <label description="Geral" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{547ded6e-3e85-4f16-9f0a-f40d32c08512}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="smt_nome" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_nome" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0b274289-1eeb-493b-9634-ee69542b1591}" locklevel="0">
+                        <labels>
+                          <label description="Aprovador" languagecode="1046" />
+                        </labels>
+                        <control id="smt_aprovador" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_aprovador" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e78bfc75-db45-4d79-96bd-2b3e6febf9de}" locklevel="0">
+                        <labels>
+                          <label description="Comentários" languagecode="1046" />
+                        </labels>
+                        <control id="smt_comentarios" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_comentarios" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{29cf7924-4d93-4ce4-86a4-fcb62081c4cf}">
+                        <labels>
+                          <label description="Proprietário" languagecode="1046" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{71862c8b-cdfc-4f96-867a-e9e053ac6b8d}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{a1970933-fa8b-4ea2-ab32-6834a5fe3df1}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{feec88d3-8653-4c36-b92d-25184bd9c89d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{734af98d-b3de-4ec7-801a-2b2accc59a15}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{9cf02f12-923f-4f4d-9404-8d27960709be}" locklevel="0">
+              <labels>
+                <label description="Razão do Status" languagecode="1046" />
+              </labels>
+              <control id="header_statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{e71abf34-5334-409c-811d-eaa902ca5684}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{fd003b84-a8a3-44ea-a860-8719037433ac}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{0c191065-8e62-47e2-b65f-2783a6a8a6b4}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{5505a23a-fc2b-40b5-9ba9-cd8d84873906}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informações" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Um formulário para essa entidade." languagecode="1046" />
+    </Descriptions>
+  </systemform>
+</forms>

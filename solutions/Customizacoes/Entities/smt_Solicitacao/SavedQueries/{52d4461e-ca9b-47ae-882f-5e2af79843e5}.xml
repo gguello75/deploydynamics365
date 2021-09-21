@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{52d4461e-ca9b-47ae-882f-5e2af79843e5}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smt_nome" select="1" icon="1" preview="1">
+        <row name="result" id="smt_solicitacaoid">
+          <cell name="smt_nome" width="300" />
+          <cell name="smt_aprovador" width="100" />
+          <cell name="statuscode" width="100" />
+          <cell name="createdon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smt_solicitacao">
+          <attribute name="smt_solicitacaoid" />
+          <attribute name="smt_nome" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smt_aprovador" />
+          <attribute name="createdon" />
+          <attribute name="statuscode" />
+          <order attribute="createdon" descending="true" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Solicitações Ativos(as)" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

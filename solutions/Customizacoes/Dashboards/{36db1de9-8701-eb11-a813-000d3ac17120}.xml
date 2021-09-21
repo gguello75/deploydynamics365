@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizedNames>
+    <LocalizedName description="Painel da Ouvidoria" languagecode="1046" />
+  </LocalizedNames>
+  <FormId>{36db1de9-8701-eb11-a813-000d3ac17120}</FormId>
+  <IsCustomizable>1</IsCustomizable>
+  <IsDefault>0</IsDefault>
+  <FormXml>
+    <forms type="dashboard">
+      <form>
+        <tabs>
+          <tab showlabel="true" verticallayout="true" id="{512f3645-5154-4adf-ab13-77ddd2b89d3e}">
+            <labels>
+              <label description="Guia" languagecode="1046" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section showlabel="false" showbar="false" columns="1111" id="{837261b4-9c7b-472b-b61c-194e53f24362}">
+                    <labels>
+                      <label description="Seção" languagecode="1046" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell colspan="2" rowspan="12" showlabel="false" id="{86a9ea64-f9ff-4668-b972-2673d35b9777}" auto="false">
+                          <labels>
+                            <label description="Item da Fila" languagecode="1046" />
+                          </labels>
+                          <control id="Component24a73e2" uniqueid="{356d292a-9d90-c59b-42c3-cd94a6a965cd}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>queueitem</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>10</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{0A3824A0-8601-EB11-A813-000D3AC1707E}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{475E6F02-32AE-4081-8CB8-E3E24A9FBC0F}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="2" rowspan="12" showlabel="false" id="{ba4e8b18-c78f-41f7-ab87-05ca2c8dcc59}" auto="false">
+                          <labels>
+                            <label description="Item da Fila" languagecode="1046" />
+                          </labels>
+                          <control id="Component04e8a43" uniqueid="{917ceda1-9ec2-08e6-4c44-942345149ce9}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>queueitem</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>10</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{60FAB0BB-8601-EB11-A813-000D3AC17120}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{475E6F02-32AE-4081-8CB8-E3E24A9FBC0F}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row>
+                        <cell id="{14cd9c77-b5ed-d384-7a65-56caabb879ca}" showlabel="false" colspan="2" auto="false" rowspan="12">
+                          <labels>
+                            <label description="Itens da Fila" languagecode="1046" />
+                          </labels>
+                          <control id="Component4409456" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <ViewId>{0A3824A0-8601-EB11-A813-000D3AC1707E}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>queueitem</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>true</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <ViewIds />
+                              <EnableJumpBar>true</EnableJumpBar>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <VisualizationId />
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>8</RecordsPerPage>
+                              <HeaderColorCode />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell id="{5ac92a52-924d-700c-6892-ba8a484473bb}" showlabel="false" colspan="2" auto="false" rowspan="12">
+                          <labels>
+                            <label description="Itens da Fila" languagecode="1046" />
+                          </labels>
+                          <control id="Component6789322" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <ViewId>{60FAB0BB-8601-EB11-A813-000D3AC17120}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>queueitem</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>true</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <ViewIds />
+                              <EnableJumpBar>true</EnableJumpBar>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <VisualizationId />
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>8</RecordsPerPage>
+                              <HeaderColorCode />
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+          <tab showlabel="true" verticallayout="true" id="{2cc261c4-e222-46cf-b93d-9c6f08ba3144}">
+            <labels>
+              <label description="Guia" languagecode="1046" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section showlabel="false" showbar="false" columns="1111" id="{23c2f506-3bba-4f0f-b355-057b3b26aabf}">
+                    <labels>
+                      <label description="Seção" languagecode="1046" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell id="{6acc2695-a161-3dd7-8434-0185ea33cad1}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1046" />
+                          </labels>
+                        </cell>
+                        <cell id="{1edbe0e5-a031-e425-ab21-031e165e2ace}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1046" />
+                          </labels>
+                        </cell>
+                        <cell id="{23552516-92a0-be52-3315-5b6732d6282a}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1046" />
+                          </labels>
+                        </cell>
+                        <cell id="{4391545d-47b1-aaee-5e36-29823129d5b7}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1046" />
+                          </labels>
+                        </cell>
+                      </row>
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+      </form>
+    </forms>
+  </FormXml>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsTabletEnabled>0</IsTabletEnabled>
+</Dashboard>

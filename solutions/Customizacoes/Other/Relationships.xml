@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_smt_solicitacao" />
+  <EntityRelationship Name="lk_smt_solicitacao_createdby" />
+  <EntityRelationship Name="lk_smt_solicitacao_modifiedby" />
+  <EntityRelationship Name="msdyn_appconfiguration_systemuser" />
+  <EntityRelationship Name="msdyn_ciprovider_systemuser_membership" />
+  <EntityRelationship Name="msdyn_flow_actionapprovalmodelrelationship_systemuser" />
+  <EntityRelationship Name="msdyn_flow_awaitallactionmodelrelationship_user" />
+  <EntityRelationship Name="msdyn_flow_awaitallmodelrelationship_systemuser" />
+  <EntityRelationship Name="msdyn_flow_basicapprovalmodelrelationship_systemuser" />
+  <EntityRelationship Name="msdyn_liveworkstream_queueitem_liveworkstreamid" />
+  <EntityRelationship Name="msdyn_msdyn_liveworkstream_systemuser" />
+  <EntityRelationship Name="msdyn_msdyn_ocphonenumber_systemuser_phonenumberid" />
+  <EntityRelationship Name="msdyn_msdyn_presence_systemuser" />
+  <EntityRelationship Name="msdyn_resourcerequirement_systemuser" />
+  <EntityRelationship Name="msdyn_slaitem_slakpiinstance" />
+  <EntityRelationship Name="msdyn_systemuser_msdyn_omnichannelqueue" />
+  <EntityRelationship Name="owner_smt_solicitacao" />
+  <EntityRelationship Name="smt_Solicitacao_Aprovador_SystemUser" />
+  <EntityRelationship Name="team_smt_solicitacao" />
+  <EntityRelationship Name="user_smt_solicitacao" />
+</EntityRelationships>
